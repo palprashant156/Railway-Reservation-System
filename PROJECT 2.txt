@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Railway Ticket</title>
+<link rel="stylesheet" type="text/css"
+href="https://fonts.google.com/icons?selected=Material+
+Icons">
+<meta charset="utf-8">
+<style>
+body{ background-color: ghostwhite;
+margin-top: 0px;
+}
+.upper,mid,bottom{
+display: block;
+font-family: helvetica;
+}
+.upper{
+text-align: center;
+background: #ff6600;
+padding: 0px 8px 35px 0px;
+margin-right: 0px;
+}
+.upper a{
+font-family: "Candara",sans-sarif;
+font-weight: bold;
+margin-left: 70px;
+text-decoration: none;
+color: white;
+display: inline;
+background: #141414;
+padding: 8px;
+border: 1px solid white;
+border-radius: 12px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.upper a:hover{
+text-decoration: underline;
+background:#ccffcc;
+color: green;
+cursor: pointer;
+}
+.left{
+height: 540px;
+width: 400px;
+background: rgba(76, 175, 80, 0.20);
+display: block;
+position:absolute;
+top: 95px;
+border: 2px solid black;
+border-radius: 24px;
+left: 25px;
+}
+.left p{
+font-size: 24px;
+text-align: center;
+color: purple;
+}
+.left img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+}.left
+input[type="text"],input[type="date"],input[type="submit"],sele
+ct{
+margin-top: 20px;
+width: 250px;
+background: #f2f2f2;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border: 2px solid red;
+border-radius: 25px;
+padding: 5px;
+color: black;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+transition: 0.25s; <!-- to get the effect of box
+expanding -->
+margin-top: 30px;}
+.left
+input[type="text"]:focus,input[type="date"]:focus,select:focus{
+width: 300px;
+background: white;
+border-color: green;
+outline:none;
+}.left input[type="submit"]:hover{
+background: green;
+cursor: pointer;
+}
+.bottom a{
+margin-left: 70px;
+text-decoration: none;
+color : #0400f0;
+display: inline;
+background: lightblue;
+padding: 8px;
+border: 1px solid blue;
+border-radius: 12px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255,0.2);
+}
+#heading{
+margin-top:-800px;
+margin-left:600px;
+font-size:35px;
+color : #ff6600;
+}
+</style>
+</head>
+<body>
+<div class="upper">
+<a href="login_project.html" target="_blank">Login</a>
+<a href="meal_for_project.html"
+target="_blank">Meals</a>
+<a href="holiday_project.html"
+target="_blank">Holidays</a>
+<a href="service_for_project.html"
+target="_blank">Service At Station</a>
+<a href="contact_us.html" target="_blank"
+target="_blank">Contact No.</a>
+<img src="railwaylogo.jpg"width="50px"height="50px">
+</div>
+<div class="left">
+<form>
+<p>Book Your Tickets Here<p>
+<input type="text" placeholder="From" required>
+<br>
+<img src="from to.jpg" height="20" width="20">
+<input type="text" placeholder="To" required>
+<br>
+<input type="date" placeholder="" required>
+<select>
+<option>All Classes </option>
+<option>AC First Class (1A)</option>
+<option>Exec. Chair Car (EC)</option>
+<option>AC 2 Tier (2A)</option>
+<option>First Class (FC)</option>
+<option>AC 3 Tier (2A)</option>
+<option>AC 3 Economy (3E)</option>
+<option>Chair Class(CC)</option>
+<option>Sleeper (SL)</option>
+</select>
+<select>
+<option>GENERAL</option>
+<option>LADIES</option>
+<option>LOWER BERTH/SR.CITIZEN</option>
+<option>DIVYAANG</option>
+<option>TATKAL</option>
+<option>PREMIUM TATAKAL</option>
+</select>
+<input type="submit" name="Submit">
+</form>
+</div>
+<div id="mid"> <img src="trainpic1.jpg" height="800"
+width="1600"><!-- align="top/left/bottom/middle/right -->
+</div>
+<div id ="heading">
+<h1>Railway Reservation System </h1>
+</div>
+</body>
+</html>
